@@ -17,6 +17,10 @@ ul li{
     margin-top: 5px;
     border-radius: 10px;
 }
+ul li:hover{
+    background-color: var(--cor1);
+}
+
 /*HEADER*/
 header{
     background-color: var(--cor3);
