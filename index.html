@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Acenda a Lâmpada 2.0</title>
 </head>
-<body>
-    <header>
+<body id="fundo">
+    <header id="st">
         <nav>
             <p id="titulo">Acendedor 2.0</p>
             <ul class="envol1">
-                <li class="envol" id="envol10">Acender</li>
-                <li class="envol" id="envol11">Apagar</li>
+                <li class="envol" id="envol10" onclick="clicar()">Acender</li>
+                <li class="envol" id="envol11" onclick="clicar1()">Apagar</li>
             </ul>
         </nav>
     </header>
     <main>
-        <p id="envol3">Você pode acompanhar o resultado<br>abaixo na imagem da lâmpada<br><br>|<br>|<br>|<br>\/</p>
+        <p id="envol3" class="text">Você pode acompanhar o resultado<br>abaixo na imagem da lâmpada<br><br>|<br>|<br>|<br>\/</p>
         <div class="envol6">
             <img src="img/apagada.svg" alt="" id="#envol4">
-            <p class="envol8">A lâmpada está apagada!</p>
+            <p id="envol8" class="text">A lâmpada está apagada!</p>
         </div>
     </main>
     <footer>
-        <p id="cred">Projeto desenvolvido por <a href="https://twitter.com/lordiminu" target="_blank">@lordiminu</a></p>
+        <p id="cred" class="text">Projeto desenvolvido por <a href="https://twitter.com/lordiminu" target="_blank">@lordiminu</a></p>
     </footer>
     <script src="js/script.js"></script>
 </body>
